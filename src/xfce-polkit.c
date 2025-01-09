@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	if(!polkit_agent_listener_register(listener,
 					   POLKIT_AGENT_REGISTER_FLAGS_NONE,
 					   session, NULL, NULL, &err)) {
-		xfce_dialog_show_error(NULL, err, "XFCE PolicyKit Agent");
+		xfce_dialog_show_error(NULL, err, "Xfce4 PolicyKit Agent");
 		rc = 1;
 	} else {
 		gtk_main();

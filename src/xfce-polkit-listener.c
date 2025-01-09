@@ -84,14 +84,14 @@ static void on_session_show_error(PolkitAgentSession *session, gchar *text,
 				  AuthDlgData *d)
 {
 	xfce_dialog_show_warning(GTK_WINDOW(d->auth_dlg), text,
-			       "XFCE PolicyKit Agent");
+			       "Xfce4 PolicyKit Agent");
 }
 
 static void on_session_show_info(PolkitAgentSession *session, gchar *text,
 				  AuthDlgData *d)
 {
 	xfce_dialog_show_info(GTK_WINDOW(d->auth_dlg), text,
-			      "XFCE PolicyKit Agent");
+			      "Xfce4 PolicyKit Agent");
 }
 
 static void on_id_combo_user_changed(GtkComboBox *combo, AuthDlgData *d)
