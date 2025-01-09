@@ -25,8 +25,8 @@ executable('xfce-polkit', sources,
 desktopconf = configuration_data()
 desktopconf.set('xfce_polkit_libexecdir', libexecdir)
 configure_file(
-  input: 'xfce-polkit.desktop.in',
-  output: 'xfce-polkit.desktop',
+  input: 'xfce4-polkit-authentication-agent-1.desktop.in',
+  output: 'xfce4-polkit-authentication-agent-1.desktop',
   configuration: desktopconf,
   install_dir: autostartdir
 )
