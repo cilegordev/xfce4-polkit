@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=Xfce4 PolKit
-Comment=Policykit Authentication Agent
-Exec=@xfce_polkit_libexecdir@/xfce-polkit
+Name=PolicyKit Authentication Agent
+Comment=PolicyKit Authentication Agent for the Xfce4 Desktop
+Exec=@xfce_polkit_libexecdir@/xfce4-polkit-authentication-agent-1
 Icon=gtk-dialog-authentication
 NotShowIn=GNOME;KDE;
 OnlyShowIn=XFCE;

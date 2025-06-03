@@ -3,7 +3,7 @@
 #include <pwd.h>
 #include <libxfce4ui/libxfce4ui.h>
 
-#include "xfce-polkit-listener.h"
+#include "xfce4-polkit-listener.h"
 
 G_DEFINE_TYPE(XfcePolkitListener, xfce_polkit_listener, POLKIT_AGENT_TYPE_LISTENER);
 

@@ -1,4 +1,4 @@
-project('xfce-polkit', 'c', version : '0.3.0')
+project('xfce4-polkit', 'c', version : '0.3.1')
 
 prefix = get_option('prefix')
 libexecdir = join_paths(prefix, get_option('libexecdir'))
@@ -12,11 +12,11 @@ deps = [
 ]
 
 sources = files([
-  'src/xfce-polkit.c',
-  'src/xfce-polkit-listener.c',
+  'src/xfce4-polkit.c',
+  'src/xfce4-polkit-listener.c',
 ])
 
-executable('xfce-polkit', sources,
+executable('xfce4-polkit-authentication-agent-1', sources,
   dependencies: deps,
   install: true,
   install_dir: libexecdir

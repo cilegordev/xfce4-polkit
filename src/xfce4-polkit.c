@@ -1,5 +1,5 @@
 #include <libxfce4ui/libxfce4ui.h>
-#include "xfce-polkit-listener.h"
+#include "xfce4-polkit-listener.h"
 
 int main(int argc, char *argv[])
 {

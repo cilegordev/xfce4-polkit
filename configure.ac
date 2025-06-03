@@ -1,4 +1,4 @@
-AC_INIT([xfce-polkit], [0.3])
+AC_INIT([xfce4-polkit], [0.3.1])
 AM_INIT_AUTOMAKE
 AC_PROG_CC
 
