@@ -1,19 +1,19 @@
 
 NULL=
 
-libexec_PROGRAMS = xfce-polkit
-xfce_polkit_SOURCES = \
-	xfce-polkit.c \
-	xfce-polkit-listener.c \
-	xfce-polkit-listener.h \
+libexec_PROGRAMS = xfce4-polkit-authentication-agent-1
+xfce4_polkit_authentication_agent_1_SOURCES = \
+	xfce4-polkit.c \
+	xfce4-polkit-listener.c \
+	xfce4-polkit-listener.h \
 	$(NULL)
 
-xfce_polkit_CFLAGS = @GLIB_CFLAGS@ \
+xfce4_polkit_authentication_agent_1_CFLAGS = @GLIB_CFLAGS@ \
 	@LIBXFCE4UI_CFLAGS@ \
 	@POLKIT_AGENT_CFLAGS@
 
 
-xfce_polkit_LDADD = @GLIB_LIBS@ \
+xfce4_polkit_authentication_agent_1_LDADD = @GLIB_LIBS@ \
 	@LIBXFCE4UI_LIBS@ \
 	@POLKIT_AGENT_LIBS@
 

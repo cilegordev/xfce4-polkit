@@ -1,7 +1,7 @@
 Xfce4-Polkit
 ===========
 
-A simple policykit authentication agent for xfce4
+A simple policykit authentication agent for xfce4 desktop
 
 <a href="./LICENSE.md"><img src="https://img.shields.io/badge/license-GPL%20v2-orange"></a>
 <a href="https://github.com/cilegordev/xfce4-polkit/releases"><img src="https://img.shields.io/github/v/tag/cilegordev/xfce4-polkit.svg"></a>

@@ -9,6 +9,7 @@ Makefile
 /aclocal.m4
 /compile
 /configure
+/configure~
 /depcomp
 /install-sh
 /missing
@@ -20,4 +21,5 @@ config.*
 *.o
 core
 
+src/xfce4-polkit-authentication-agent-1
 build/*

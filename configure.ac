@@ -1,5 +1,5 @@
 AC_INIT([xfce4-polkit], [0.3.1])
-AM_INIT_AUTOMAKE
+AM_INIT_AUTOMAKE([foreign])
 AC_PROG_CC
 
 PKG_CHECK_MODULES([GLIB], [glib-2.0])
